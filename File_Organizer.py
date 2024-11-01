@@ -4,18 +4,21 @@
 import os
 import shutil
 
-file_path = '/Users/yuan/Downloads'
+# Base download path
+file_path = '/path/to/Downloads'
 
-#transfer paths
-pdf_path = '/Users/yuan/Downloads/PDFs'
-text_path = '/Users/yuan/Downloads/TextFiles'
-videos_path = '/Users/yuan/Videos'
-presentations_path = '/Users/yuan/Downloads/Presentations'
-word_Downloads_path = '/Users/yuan/Downloads/WordDocuments'
-music_path = '/Users/Downloads/yuan/Music'
-images_path = '/Users/yuan/Downloads/Pictures'
-application_path = '/Users/yuan/Downloads/Applications'
-zip_path = '/Users/yuan/Downloads/Archives'
+# Transfer paths (replace with your own folder paths)
+folders = {
+    "pdf": "/path/to/Downloads/PDFs",
+    "text": "/path/to/Downloads/TextFiles",
+    "videos": "/path/to/Videos",
+    "presentations": "/path/to/Downloads/Presentations",
+    "word": "/path/to/Downloads/WordDocuments",
+    "music": "/path/to/Downloads/Music",
+    "images": "/path/to/Downloads/Pictures",
+    "applications": "/path/to/Downloads/Applications",
+    "archives": "/path/to/Downloads/Archives"
+}
 
 #file types
 pdf_extensions = [".pdf"]
